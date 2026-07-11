@@ -19,11 +19,8 @@ int main () {
     printf("Enter choice (1 or 2): ");
     scanf("%d", &start_choice);
 
-    int login_success = 0; // Tracks if the user is allowed into the bank
-
-    // ==========================================
-    // PROCESS 1: FRESH REGISTRATION
-    // ==========================================
+    int login_success = 0; 
+    
     if (start_choice == 1) {
         printf("\n--- REGISTRATION ---\n");
         printf("enter your user name here: ");
@@ -31,7 +28,7 @@ int main () {
         
         if (strlen(username) < 6){
             printf("INVALID USERNAME: the user name must contain at least 6 characters\n");
-            return 0; // Stop program execution
+            return 0; 
         }
         
         printf("loading the page...\n");
@@ -40,7 +37,7 @@ int main () {
         
         if (strlen(password) < 8) {
             printf("INVALID PASSWORD: the password must contain at least 8 characters\n");
-            return 0; // Stop program execution
+            return 0; 
         }
 
         // Save new user to file
@@ -49,12 +46,10 @@ int main () {
             fprintf(user_file, "%s %s\n", username, password);
             fclose(user_file);
             printf("Registration successful and saved!\n");
-            login_success = 1; // Automatically log them in after registering
+            login_success = 1; 
         }
     }
-    // ==========================================
-    // PROCESS 2: LOGIN
-    // ==========================================
+    
     else if (start_choice == 2) {
         char saved_username[50];
         char saved_password[50];
@@ -72,10 +67,10 @@ int main () {
             return 0;
         }
 
-        // Read file line-by-line to look for a match
+        
         while (fscanf(user_file, "%s %s", saved_username, saved_password) != EOF) {
             if (strcmp(username, saved_username) == 0 && strcmp(password, saved_password) == 0) {
-                login_success = 1; // Found a match!
+                login_success = 1; 
                 break; 
             }
         }
@@ -91,9 +86,7 @@ int main () {
         printf("Invalid choice selected.\n");
     }
 
-    // ==========================================
-    // BANKING TRANSACTION LOOP (Only runs if logged in)
-    // ==========================================
+   
     if (login_success == 1) {
         printf("loading the user details...\n");
         int bank_balance = 100000;
