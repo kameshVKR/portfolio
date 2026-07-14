@@ -44,8 +44,8 @@ To live up to its name, **The Secure Banking Sim** incorporates specific defensi
 
 *   [x] Establish Git repository architecture
 *   [x] Complete basic logic scripts (Arrays, Loops, Math Operations)
-*   [ ] Finish C Programming foundational training at institute
-*   [ ] Initialize Python Automation Course (Launching July 13th)
+*   [x] Finish C Programming foundational training at institute
+*   [x ] Initialize Python Automation Course (Launching July 13th)
 *   [ ] Complete Google Cyber Security Professional Certificate Track
 
 ---
