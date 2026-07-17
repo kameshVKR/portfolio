@@ -3,7 +3,7 @@
 #include <string.h>
 
 int main () {
-    
+
  #define MAX_USERS 100
 #define USERNAME_LEN 50
 #define PASSWORD_LEN 50
@@ -11,7 +11,7 @@ int main () {
     char password[50];
     int start_choice;
 
-    
+
 
     printf("WELCOME TO THE XYZ BANK\n");
     printf("1. Fresh Registration\n");
@@ -20,21 +20,21 @@ int main () {
     scanf("%d", &start_choice);
 
     int login_success = 0; 
-    
+
     if (start_choice == 1) {
         printf("\n--- REGISTRATION ---\n");
         printf("enter your user name here: ");
         scanf("%49s", username);
-        
+
         if (strlen(username) < 6){
             printf("INVALID USERNAME: the user name must contain at least 6 characters\n");
             return 0; 
         }
-        
+
         printf("loading the page...\n");
         printf("create your password it must at least contain 8 characters: ");
         scanf("%49s", password);
-        
+
         if (strlen(password) < 8) {
             printf("INVALID PASSWORD: the password must contain at least 8 characters\n");
             return 0; 
@@ -49,11 +49,11 @@ int main () {
             login_success = 1; 
         }
     }
-    
+
     else if (start_choice == 2) {
         char saved_username[50];
         char saved_password[50];
-        
+
         printf("\n--- LOGIN ---\n");
         printf("Enter your username: ");
         scanf("%49s", username);
@@ -67,7 +67,7 @@ int main () {
             return 0;
         }
 
-        
+
         while (fscanf(user_file, "%s %s", saved_username, saved_password) != EOF) {
             if (strcmp(username, saved_username) == 0 && strcmp(password, saved_password) == 0) {
                 login_success = 1; 
@@ -86,7 +86,7 @@ int main () {
         printf("Invalid choice selected.\n");
     }
 
-   
+
     if (login_success == 1) {
         printf("loading the user details...\n");
         int bank_balance = 100000;
@@ -106,7 +106,7 @@ int main () {
             else if (strcmp(choise, "deposit") == 0) { 
                 printf("enter your amount here: ");
                 scanf("%d", &deposit1);
-                
+
                 bank_balance = bank_balance + deposit1; 
                 printf("new balance %d\n", bank_balance);
 
@@ -119,7 +119,7 @@ int main () {
             else if (strcmp(choise, "withdraw") == 0) { 
                 printf("enter your amount here: ");
                 scanf("%d", &withdraw1);
-                
+
                 bank_balance = bank_balance - withdraw1; 
                 printf("new balance %d\n", bank_balance); 
 
@@ -137,3 +137,4 @@ int main () {
 
     return 0;
 }
+
