@@ -134,6 +134,7 @@ int main () {
             }
         } 
     }
+ printf("thanks for choosing our us for your  banking we are exicited for your next visit ");
 
     return 0;
 }
