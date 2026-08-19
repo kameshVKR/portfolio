@@ -2,18 +2,24 @@
 #include <stdlib.h>
 #include <string.h>
 
-int main () {
-
- #define MAX_USERS 100
+#define MAX_USERS 100
 #define USERNAME_LEN 50
 #define PASSWORD_LEN 50
-    char username[50];
-    char password[50];
+
+int main(void) {
+    char username[USERNAME_LEN];
+    char password[PASSWORD_LEN];
     int start_choice;
 
 
 
-    printf("WELCOME TO THE XYZ BANK\n");
+    printf("WELCOME TO THE JPMorgan chase BANK\n");
+    printf("Terms & Conditions\n\n"
+           "Copyright & Trademarks: Content is owned by JPMorgan Chase & Co. or its subsidiaries. Unauthorized use is prohibited. Trademarks include \"JPMorgan,\" \"Chase,\" and the Octagon Symbol [1].\n\n"
+           "Web Content & Liability: Information is provided \"as is\" without warranties. JPMorgan Chase may update or change the site without notice. Users are responsible for checking for updates [1].\n\n"
+           "Limitation of Liability: JPMorgan Chase is not liable for any damages, including direct, indirect, or consequential, arising from the use of the site [1].\n\n"
+           "Links & Legal: Links to other sites are provided for convenience, but JPMorgan Chase does not control or endorse them. Usage is subject to New York law [1].\n\n"
+           "Copyright \u00A9 2026 JPMorgan Chase & Co. All rights reserved.\n");
     printf("1. Fresh Registration\n");
     printf("2. Login to Existing Account\n");
     printf("Enter choice (1 or 2): ");
@@ -28,7 +34,7 @@ int main () {
 
         if (strlen(username) < 6){
             printf("INVALID USERNAME: the user name must contain at least 6 characters\n");
-            return 0; 
+    
         }
 
         printf("loading the page...\n");
