@@ -140,7 +140,27 @@ int main(void) {
             }
         } 
     }
- printf("thanks for choosing our us for your  banking we are exicited for your next visit ");
+ printf("thanks for choosing JPMorgan chase for your  banking we are exicited for your next visit ");
+    // Printing the JPMorganChase announcement text
+    printf("JPMorganChase Investments and Commitments\n\n");
+
+    printf("1. Small Business Support in Southern California\n");
+    printf("JPMorganChase, the Official Bank of Team USA and the LA28 Olympic and Paralympic Games, is expanding its support for small businesses in Southern California.\n");
+    printf("- The firm is growing its team of business bankers in the region by nearly 30%%.\n");
+    printf("- It plans to expand the Coaching for Impact program to graduate over 3,700 additional entrepreneurs across Greater Los Angeles and Riverside over the next five years.\n");
+    printf("- The bank is providing more than $1 million in new philanthropic funding to strengthen the local small business ecosystem, adding to the $15 million deployed since 2020.\n\n");
+
+    printf("2. Affordable Housing and Homeownership\n");
+    printf("The firm is increasing its housing goals through its American Dream Initiative, aiming to deploy $750 billion through 2035.\n");
+    printf("- This new target represents an increase of more than $200 billion over previous goals.\n");
+    printf("- The expanded financing and policy engagement aim to help build or preserve 1,000,000 affordable housing units.\n");
+    printf("- The initiative is designed to help 500,000 customers purchase their own homes.\n\n");
+
+    printf("3. Strengthening Shipbuilding in Philadelphia\n");
+    printf("JPMorganChase has announced a $24 million investment to support Philadelphia's shipbuilding industry and America's defense industrial base.\n");
+    printf("- The funding will support regional collaboration and workforce training programs.\n");
+    printf("- It will help small business suppliers connect with national competitiveness and resilience priorities.\n");
+    printf("- The investment links local job and business opportunities directly to national defense needs.\n");
 
     return 0;
 }
