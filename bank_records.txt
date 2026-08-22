@@ -18,3 +18,4 @@ User: vedula | Deposit: 1000000 | New Balance: 1317335612
 User: vedula | Deposit: 10000000 | New Balance: 1327335612
 User: vedula | Deposit: 10000000 | New Balance: 1337335612
 User: vedula | Deposit: 1000000000 | New Balance: -1957631684
+User: vedula | Deposit: 1000000000 | New Balance: -957631684
