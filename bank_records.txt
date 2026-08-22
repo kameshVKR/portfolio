@@ -3,3 +3,7 @@ User: vedula | Deposit: 1000 | New Balance: 101000
 User: hacker | Deposit: 1000 | New Balance: 101000
 User: hacker | Deposit: 1000 | New Balance: 102000
 User: hacker | Withdraw: 1000 | New Balance: 99000
+User: vkrthev8 | Deposit: 1000 | New Balance: 101000
+User: vkrthev8 | Withdraw: 100 | New Balance: 100900
+User: vkrthev8 | Deposit: 0 | New Balance: 100900
+User: vkrthev8 | Deposit: 0 | New Balance: 100900
