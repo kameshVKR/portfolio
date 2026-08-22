@@ -141,7 +141,8 @@ int main(void) {
         } 
     }
  printf("thanks for choosing JPMorgan chase for your  banking we are exicited for your next visit ");
-    // Printing the JPMorganChase announcement text
+ printf("~JPMorgan support team ");
+ // Printing the JPMorganChase announcement text
     printf("JPMorganChase Investments and Commitments\n\n");
 
     printf("1. Small Business Support in Southern California\n");
