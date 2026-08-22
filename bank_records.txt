@@ -7,3 +7,4 @@ User: vkrthev8 | Deposit: 1000 | New Balance: 101000
 User: vkrthev8 | Withdraw: 100 | New Balance: 100900
 User: vkrthev8 | Deposit: 0 | New Balance: 100900
 User: vkrthev8 | Deposit: 0 | New Balance: 100900
+User: vkrthev8 | Deposit: 10000 | New Balance: 110000
