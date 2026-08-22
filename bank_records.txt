@@ -8,3 +8,13 @@ User: vkrthev8 | Withdraw: 100 | New Balance: 100900
 User: vkrthev8 | Deposit: 0 | New Balance: 100900
 User: vkrthev8 | Deposit: 0 | New Balance: 100900
 User: vkrthev8 | Deposit: 10000 | New Balance: 110000
+User: vedula | Deposit: 200 | New Balance: 100200
+User: vedula | Withdraw: 500 | New Balance: 99700
+User: vedula | Deposit: 1000 | New Balance: 100700
+User: vedula | Deposit: 100000 | New Balance: 200700
+User: vedula | Deposit: 1316134912 | New Balance: 1316335612
+User: vedula | Deposit: 0 | New Balance: 1316335612
+User: vedula | Deposit: 1000000 | New Balance: 1317335612
+User: vedula | Deposit: 10000000 | New Balance: 1327335612
+User: vedula | Deposit: 10000000 | New Balance: 1337335612
+User: vedula | Deposit: 1000000000 | New Balance: -1957631684
