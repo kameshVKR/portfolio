@@ -140,6 +140,7 @@ int main(void) {
             }
         } 
     }
+    printf("#JPMorgan_the_top_1_trusted_of_the_world");
  printf("thanks for choosing JPMorgan chase for your  banking we are exicited for your next visit ");
  printf("~JPMorgan support team ");
  // Printing the JPMorganChase announcement text
